@@ -191,7 +191,7 @@ Or avoid the issue entirely by pointing `FINN_BUILD_DIR` to a persistent, user-o
 ```
 .
 ├── best.finn.onnx                  # Quantized YOLOv5 ONNX model
-├── build.ipynb                     # FINN build notebook
+├── build.py                     # FINN build script
 ├── output_yolov5_pynq/
 │   ├── report/                     # Estimate reports
 │   │   ├── estimate_network_performance.json
