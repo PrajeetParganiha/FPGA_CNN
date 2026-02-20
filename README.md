@@ -8,7 +8,7 @@ This project follows the deployment approach from [finn-quantized-yolo](https://
 
 ## Overview
 
-A quantized YOLOv5 model was trained on a 10-class VOC subset and the full FINN build pipeline was run through RTL simulation and out-of-context synthesis. Bitfile generation was not completed due to a FIFO depth compatibility issue between FINN's auto-sizing and Vivado's IP FIFO limit on the XC7Z020 — a fix is documented in the Known Issues section.
+A quantized YOLOv5 model was trained on a 10-class VOC subset and the full FINN build pipeline was run through RTL simulation and out-of-context synthesis. 
 
 **Key results from FINN build:**
 - All 19 FINN build steps ran including RTL simulation
@@ -149,6 +149,7 @@ Then open `inference.ipynb` at `http://<PYNQ_IP>:9090`.
 ---
 
 ## Known Issues
+Bitfile generation was not completed due to a FIFO depth compatibility issue between FINN's auto-sizing and Vivado's IP FIFO limit on the XC7Z020 — a fix is documented in the Known Issues section.
 
 ### FIFO Depth Exceeds Vivado IP Limit
 
