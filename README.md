@@ -6,7 +6,7 @@ Quantized YOLOv5 object detection deployed on a Pynq-Z2 FPGA using the FINN fram
 
 ## Overview
 
-This project implements a quantized YOLOv5 model trained on a 10-class VOC subset and targets the Pynq-Z2 FPGA board (Xilinx XC7Z020). The full pipeline covers model training, quantization, FINN compilation, RTL simulation, and hardware deployment.
+This project implements a quantized YOLOv5 model trained on a VOC dataset and targets the Pynq-Z2 FPGA board (Xilinx XC7Z020). The full pipeline covers model training, quantization, FINN compilation, RTL simulation, and hardware deployment.
 
 **Key results from FINN build:**
 - RTL simulation: 346,112 inputs consumed, 25,350 outputs produced
